@@ -20,7 +20,7 @@
       
     ?>
     
-    <form action="<? echo $_SERVER['PHP_SELF']; ?>" method="post" ENCTYPE="multipart/form-data">
+    <form action="upload.php" method="post" ENCTYPE="multipart/form-data">
       Upload:<br><br>
       <input type="file" name="image"><br><br>
       <input type="hidden" name="uploaded" value="1">
