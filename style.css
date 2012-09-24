@@ -1,0 +1,76 @@
+#css_horizontal_menu{
+  
+  /*width: 960px;*/
+  list-style:none;
+  overflow:hidden;
+  /*padding:1px;
+  /*background-color:#FFFFFF;
+  /*border:1px solid #437E7E;*/
+  
+} 
+
+/*
+#css_horizontal_menu li{
+  display:inline;
+  background-color:#E5E5E5;
+  color:#666666;
+} 
+*/
+
+#css_horizontal_menu a{
+  text-decoration:none;
+  font: 17px/19px 'Droid Sans',sans-serif;
+  color:#666666;
+} 
+
+#css_horizontal_menu li{
+  display:block;
+  float:left;
+  /*height:25px;*/
+  margin-left:1px;
+  margin-right: 10px;
+  padding: 5px 20px;
+  font: 17px/19px 'Droid Sans',sans-serif;
+  line-height:25px;
+  display: inline;
+  background-color:#E5E5E5;
+  
+ -moz-border-radius: 15px 15px 0 0;
+  border-radius: 15px 15px 0 0;
+} 
+#css_horizontal_menu li.active{
+  
+  background-color:#CFCFCF;
+  color:#555555;
+  
+}
+#css_horizontal_menu li:hover{
+  
+  background-color:#CFCFCF;
+  color:#555555;
+  
+} 
+
+#css_horizontal_menu a.first{
+  /*margin-left:-40px;*/
+} 
+
+#logged_in_container{
+  width: 960px;
+  /*border:10px solid #E5E5E5;*/
+  /*margin:0 auto;*/
+  margin:20px auto;
+
+}
+
+#logged_in_box{
+  
+  border:5px solid #CFCFCF;/*#E5E5E5;*/
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  height:100px;
+  
+
+}
+
+
