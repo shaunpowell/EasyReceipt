@@ -14,7 +14,7 @@ include "./functions.php";
 <html>
 	<head>
 		<title>Login with Users Online Tutorial</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="styles/style.css" />
 	</head>
 	<body>
 		<?php
@@ -79,7 +79,7 @@ include "./functions.php";
 						<td colspan="2" align="center"><input type="submit" name="submit" value="Send" /></td>
 					</tr>
 					<tr>
-						<td colspan="2" align="center"><a href="register.php">Register</a> | <a href="login.php">Login</a></a></td>
+						<td colspan="2" align="center"><a href="register.php">Register</a> | <a href="login.php">Login</a></td>
 					</tr>
 				</table>
 			</form>

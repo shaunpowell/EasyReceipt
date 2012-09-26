@@ -2,11 +2,9 @@
 
 session_start();
 
-@mysql_connect("localhost", "shaun", "WS!CApwd") or die("Cannot connect to DB!");
-@mysql_select_db("easyreceiptuser") or die("Cannot select DB!");
-//$sql="SELECT loginid FROM login_tbl WHERE loginid=".$loginid." and password=".$password"";
+require "../Common/db.php";
 
-include "./functions.php";
+include "../Common/functions.php";
 
 //protect the posted value then store them to variables
 $username = protect($_POST['username']);
@@ -59,7 +57,7 @@ if(!$username || !$password){
 			
 			//echo $row['ID'];
 			
-			header('Location: loggedin/LoggedInHome.php');
+			header('Location: ../page.php?page=User/home');
 
 			//check to see if the user has not activated their account yet
 			//if($row['active'] != 1){

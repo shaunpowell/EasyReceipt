@@ -1,6 +1,4 @@
 <?php
-  
-  require('loggedinheader.php');
       
   $current = 'sort'; 
       
@@ -38,10 +36,4 @@
   ?>   
     
   </div>
-</div>
 				
-<?php
-  
-  require('..\footer.php');
-  
-?>

@@ -6,4 +6,4 @@
   
 ?>
   
-  <div id="logged_in_container">
+<div id="logged_in_container"></div>

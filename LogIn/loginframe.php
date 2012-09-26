@@ -1,5 +1,5 @@
 <div id="border">
-	<form name="login" method="post" action="login.php">
+	<form name="login" method="post" action="/EasyReceipt/LogIn/login.php">
 		<table cellspacing="0">
 			<tbody>
 				<tr>
@@ -30,7 +30,7 @@
 						<input type="hidden" name="default_persistent" value="0">
 					</td>
 					<td>
-						<a href="forgot.php">Forgot Your Password</a>
+						<a href="/EasyReceipt/LogIn/forgot.php">Forgot Your Password</a>
 					</td>
 				</tr>
 			</tbody>

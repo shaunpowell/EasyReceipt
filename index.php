@@ -1,4 +1,6 @@
 <?php
 
-require('home.php');
+header( 'Location: page.php?page=home' ) ;
+
+?>
 

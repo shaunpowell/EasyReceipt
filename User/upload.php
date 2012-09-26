@@ -1,5 +1,4 @@
 <?php
-  require('loggedinheader.php');
       
   $current = 'upload'; 
       
@@ -7,7 +6,7 @@
 
 ?>
  
-  <!---<div id="logged_in_box"> --->
+  <div id="logged_in_box">
   
     <?php
       
@@ -69,8 +68,3 @@
   <!---</div> --->
 </div>
 				
-<?php
-  
-  require('..\footer.php');
-  
-?>
