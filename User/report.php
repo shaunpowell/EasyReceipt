@@ -1,3 +1,5 @@
+<div id="logged_in_container">
+
 <?php
   
   $current = 'report'; 
@@ -6,6 +8,6 @@
 
 ?>
  
- <div id="logged_in_box"></div>
+	<div id="logged_in_box"></div>
 
-				
+</div>		

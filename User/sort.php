@@ -1,3 +1,5 @@
+<div id="logged_in_container">
+
 <?php
       
   $current = 'sort'; 
@@ -36,4 +38,5 @@
   ?>   
     
   </div>
+</div>
 				

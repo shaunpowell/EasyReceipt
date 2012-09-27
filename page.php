@@ -7,9 +7,9 @@
 		$uid = $_SESSION['uid'];
 	}
 
-?>
+	require"Common/header.php"
 
-<?php require"Common/header.php"?>
+?>
 	
 <body class="home blog gecko">
 	<div id="container" class="hfeed">
@@ -18,38 +18,10 @@
 				<?php 
 					require('Common/branding.php');
           
-					if(strcmp($uid, "") == 0){
-
-						//if(strcmp($_GET['page'], "home") == 0){
-							
-							require('LogIn/loginframe.php');							
-
-						//} else {
-					
-							//header('Location: ..');
-							//require('LogIn/loginframe.php');
-							
-						//}
-					
-					} else {
-
-						//if(strcmp($_GET['page'], "home") == 0){
-		
-							?>
-				        	<div id="logout">
-				            	<a href="User/logout.php">Logout</a>
-				          	</div>
-				           <?php 							
+					require('Login/checkLogIn.php');
 				
-						//} else {
-								
-							//header('Location: ../page.php?page=User/home');
-								
-						//} 
-
-					
-			          }
-			        ?> 
+				?>	
+				
 				<div class="clear"></div>
 			</div>
 		</div>
